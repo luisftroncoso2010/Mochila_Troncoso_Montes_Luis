@@ -1,0 +1,28 @@
+mkdir nombre_carpeta //
+touch carpeta1/archivo1.txt carpeta2/archivo2.txt // Varios carpetas con archivos
+ls // Muestra contenido de la carpeta
+ls -a // Muestra contenido de la carpeta y ocultos (Commits)
+
+git restore // Restaura a la ultima version
+git remote -v // Validar a que repositorio estoy conectado
+git config user.name // Valido si estoy en una cuenta git hub
+
+
+git init //Crea el repositorio local
+git config user.name "luisftroncoso2010"
+git config user.email "troncober@hotmail.com" // Agrega nuestro email
+git remote add origin https://github.com/luisftroncoso2010/clase5-c2.git //Nombre del repositorio
+git log --oneline // Valido que comits estan creados
+$ git push origin master/main // Se cambia la rama 
+rm -rm .git // Elimina comit creado
+rm // Elimina carpetas
+rm -r nombre carpta // Elimina carpetas y su contenidso de forma recursiva
+
+Para crear una rama: 
+git checkout main // valido en que rama estoy
+git branch nombre_de_tu_rama // Para crear la rama
+git branch // se valida si se creo la rama
+git checkout nombre_de_tu_rama // camabia a la rama que se creo
+git push origin nombre_de_tu_rama // Aca se suben los arrchivos a la rama creada. Validar antes en que rama se esta
+
+
